@@ -103,6 +103,32 @@ fn import() -> Result<(), Error> {
     insert_data(&data)
 }
 
+fn get_input(item: &str) -> String {
+    let mut input = String::new();
+    println!("Enter {} : ", item);
+    std::io::stdin()
+        .read_line(&mut input)
+        .expect("Failed to read line");
+    input.to_string()
+}
+
+fn update() -> Result<(), Error> {
+    let (date, id, name, language) = (
+        get_input("date"),
+        get_input("id"),
+        get_input("Name"),
+        get_input("language"),
+    );
+
+    let conn = Connection::open("log.db")?;
+    conn.execute(
+        "INSERT INTO log (date, link, problem, language) VALUES (?,?,?,?)",
+        [date, id, name, language],
+    )?;
+
+    Ok(())
+}
+
 fn main() {
     let args: Vec<String> = env::args().collect();
 
