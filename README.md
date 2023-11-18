@@ -1,5 +1,7 @@
 # CP-Questions
 This repo contains the solutions to various CP(competetive progrogramming) questions that I have solved on various websites like leetcode ,geeks for geeks, etc
 
+For Interactive Log
+<a href='https://crestfallenwizard.notion.site/Competitive-Programming-b42a121c40464c058a86b85d8ca4cb70?pvs=4'>Click Here</a>
 # Log
 <details><summary><h2>November, 2023</h2></summary><table><tr><th>Date</th><th>Question Id</th><th>Question Title</th><th>Language</th></tr><tr><td>2023-11-17</td><td><a href='https://github.com/its-me-ojas/cp-questions/blob/master/450/arrays0.cpp'>450#Arrays0</a><br><a href='https://github.com/its-me-ojas/cp-questions/blob/master/450/arrays1.cpp'>450#Arrays1</a><br><a href='https://github.com/its-me-ojas/cp-questions/blob/master/450/binarytrees0.cpp'>450#BinaryTrees0</a><br><a href='https://github.com/its-me-ojas/cp-questions/blob/master/450/binarytrees1.cpp'>450#BinaryTrees1</a><br><a href='https://github.com/its-me-ojas/cp-questions/blob/master/450/binarytrees2.cpp'>450#BinaryTrees2</a><br><a href='https://github.com/its-me-ojas/cp-questions/blob/master/450/binarytrees3.cpp'>450#BinaryTrees3</a><br></td><td>Reverse words in a given string<br>Find minimum and maximum element in an array<br>Level Order Traversal<br>Reverse Level Order Traversal<br>Height of Binary Tree<br>Diameter of a Binary Tree<br></td><td>C++<br>C++<br>C++<br>C++<br>C++<br>C++<br></td></tr><tr><td>2023-11-18</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2023-11-19</td><td>-</td><td>-</td><td>-</td></tr>

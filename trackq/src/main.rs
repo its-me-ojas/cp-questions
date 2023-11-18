@@ -7,11 +7,29 @@ use chrono::{Datelike, Duration, Local, Month, NaiveDate};
 use rusqlite::{Connection, Error};
 use scraper::{Html, Selector};
 
-const PREFIX:&str="# CP-Questions
+// const NOTION_LINK: &str = r#"<a href='https://crestfallenwizard.notion.site/Competitive-Programming-b42a121c40464c058a86b85d8ca4cb70?pvs=4'>Click Here</a>"#;
+
+// const PREFIX_BEFORE:&str="# CP-Questions
+// This repo contains the solutions to various CP(competetive progrogramming) questions that I have solved on various websites like leetcode ,geeks for geeks, etc
+
+// For Interactive Log
+// ";
+
+// const PREFIX_AFTER: &str = "
+// # Log
+// ";
+
+const PREFIX: &str = concat!(
+    "# CP-Questions
 This repo contains the solutions to various CP(competetive progrogramming) questions that I have solved on various websites like leetcode ,geeks for geeks, etc
 
+For Interactive Log
+",
+    r#"<a href='https://crestfallenwizard.notion.site/Competitive-Programming-b42a121c40464c058a86b85d8ca4cb70?pvs=4'>Click Here</a>"#,
+    "
 # Log
-";
+"
+);
 const URL_PREFIX: &str = "https://github.com/its-me-ojas/cp-questions/blob/master/";
 const INFILE: &str = "table.html";
 const OUTFILE: &str = "README";
