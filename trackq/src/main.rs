@@ -117,7 +117,7 @@ fn get_input(item: &str) -> String {
     std::io::stdin()
         .read_line(&mut input)
         .expect("Failed to read line");
-    input.to_string()
+    input.trim().to_string()
 }
 
 fn update() -> Result<(), Error> {
