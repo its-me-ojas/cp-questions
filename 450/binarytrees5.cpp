@@ -1,16 +1,16 @@
-/*
-    Following is Binary Tree Node structure:
-    class TreeNode
-    {
-    public:
-        int data;
-        TreeNode *left, *right;
-        TreeNode() : data(0), left(NULL), right(NULL) {}
-        TreeNode(int x) : data(x), left(NULL), right(NULL) {}
-        TreeNode(int x, TreeNode *left, TreeNode *right) : data(x), left(left),
-   right(right) {}
-    };
-*/
+// Following is Binary Tree Node structure:
+#include <cstddef>
+#include <vector>
+class TreeNode {
+public:
+  int data;
+  TreeNode *left, *right;
+  TreeNode() : data(0), left(NULL), right(NULL) {}
+  TreeNode(int x) : data(x), left(NULL), right(NULL) {}
+  TreeNode(int x, TreeNode *left, TreeNode *right)
+      : data(x), left(left), right(right) {}
+};
+
 vector<int> preOrder(TreeNode *root) {
   vector<int> result;
   stack<TreeNode *> stack;
