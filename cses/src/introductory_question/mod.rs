@@ -90,3 +90,9 @@ pub fn increasing_array() {
     }
     println!("{moves}");
 }
+
+pub fn permutations() {
+    let mut n = String::new();
+    io::stdin().read_line(&mut n).unwrap();
+    let n: usize = n.trim().parse().unwrap();
+}
