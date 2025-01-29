@@ -1,7 +1,4 @@
-use std::{
-    collections::{HashMap, HashSet},
-    io,
-};
+use std::{collections::HashSet, io};
 
 pub fn weird_algorithm() {
     let mut input = String::new();
@@ -95,4 +92,53 @@ pub fn permutations() {
     let mut n = String::new();
     io::stdin().read_line(&mut n).unwrap();
     let n: usize = n.trim().parse().unwrap();
+}
+
+pub fn number_spiral() {}
+
+pub fn two_knights() {
+    let mut n = String::new();
+    io::stdin().read_line(&mut n).unwrap();
+    let n: usize = n.trim().parse().unwrap();
+    for i in 1..=n {
+        if i == 1 {
+            print!("0\n");
+        } else {
+            print!("{:}\n", (i * i) * (i * i - 1) / 2 - 4 * (i - 1) * (i - 2));
+        }
+    }
+}
+
+pub fn two_sets() {
+    let mut n = String::new();
+    io::stdin().read_line(&mut n).unwrap();
+    let n: u64 = n.trim().parse().unwrap();
+    let sum = n * (n + 1) / 2;
+    if sum % 2 != 0 {
+        print!("NO");
+        return;
+    }
+    print!("YES\n");
+    let mut set1 = HashSet::new();
+    let mut set2 = HashSet::new();
+    let mut sum1 = 0;
+    let mut sum2 = 0;
+    for i in (1..=n).rev() {
+        if sum1 < sum2 {
+            set1.insert(i);
+            sum1 += i;
+        } else {
+            set2.insert(i);
+            sum2 += i;
+        }
+    }
+    print!("{}\n", set1.len());
+    for i in set1 {
+        print!("{i} ");
+    }
+    print!("\n");
+    print!("{}\n", set2.len());
+    for i in set2 {
+        print!("{i} ");
+    }
 }
