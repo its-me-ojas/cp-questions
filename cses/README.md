@@ -8,6 +8,7 @@
 7. [Two Knights](https://cses.fi/problemset/task/1072) - 58:45 29012025
 8. [Two Sets](https://cses.fi/problemset/task/1092) - 24:36 29012025
 9. [Bit Strings](https://cses.fi/problemset/task/1617) - 16:00 29012025
+10. [Trailing Zeros](https://cses.fi/problemset/task/1618) - 05:52 07022025
 
 ## Graphs
 1.

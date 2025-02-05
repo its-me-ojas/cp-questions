@@ -7,5 +7,6 @@ fn main() {
     // introductory_question::increasing_array();
     //
     //
-    introductory_question::two_knights();
+    // introductory_question::two_knights();
+    introductory_question::trailing_zeros();
 }
