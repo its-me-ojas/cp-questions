@@ -1,5 +1,7 @@
 ## Week 6
 
+- [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/?envType=problem-list-v2&envId=graph) - 10:13 07022025
+- [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/?envType=daily-question&envId=2025-02-05) -  06:46 05022025
 - [All Paths from Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/?envType=problem-list-v2&envId=graph) - 17:12 04022025
 - [Find the Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/description/?envType=problem-list-v2&envId=graph) - 02:39 04022025
 - [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/description/?envType=daily-question&envId=2025-02-04) - 05:33 04022025
