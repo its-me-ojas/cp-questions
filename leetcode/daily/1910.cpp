@@ -30,3 +30,22 @@ public:
     return res;
   }
 };
+
+// #include <string>
+// class Solution {
+// public:
+//   std::string removeOccurrences(std::string s, std::string part) {
+//     std::string stk;
+//     int n = part.size();
+//     char endChar = part.back();
+//     for (auto c : s) {
+//       stk.push_back(c);
+//       if (stk.size() >= n && stk.back() == endChar) {
+//         if (stk.substr(stk.size() - n) == part) {
+//           stk.resize(stk.size() - n);
+//         }
+//       }
+//     }
+//     return stk;
+//   }
+// };
