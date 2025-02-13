@@ -1,5 +1,6 @@
 ## Week 7
 
+- [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/?envType=daily-question&envId=2025-02-13) - 16:56 13022025
 - [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/?envType=daily-question&envId=2025-02-12) - 42:54 12022025
 - [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/?envType=daily-question&envId=2025-02-11) - 21:59 11022025
 - [Clear Digits](https://leetcode.com/problems/clear-digits/submissions/1538552837/?envType=daily-question&envId=2025-02-10) - 05:59 11022025
