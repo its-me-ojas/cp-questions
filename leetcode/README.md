@@ -1,3 +1,7 @@
+## Week 9
+
+- [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/?envType=daily-question&envId=2025-03-02)
+
 ## Week 8
 
 - [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description/?envType=daily-question&envId=2025-02-20) - 13:50 21022025
